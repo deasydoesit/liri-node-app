@@ -3,8 +3,6 @@ var fs = require("fs");
 var myTweets = require("./my-tweets.js")
 var spotifyThisSong = require("./spotify-this-song.js");
 var movieThis = require("./movie-this.js");
-var DoWhatItSays = require("./do-what-it-says.js");
-
 
 var userInputs = {};
 for (var i = 2; i < process.argv.length; i++) {
