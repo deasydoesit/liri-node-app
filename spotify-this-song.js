@@ -7,7 +7,7 @@ var spotify = new Spotify(keys.spotify);
 
 var spotifyThisSong = function(songName) {
     if (songName === undefined ) {
-        console.log(`\n\n\nArtist Name: Fetty Wap`);
+        console.log(`\n\n\n   Artist Name: Fetty Wap`);
         console.log(`   Song Name: Trap Queen`);
         console.log(`   Album Name: Fetty Wap`);
         console.log(`   Spotify Link to Song: https://open.spotify.com/artist/6PXS4YHDkKvl1wkIl4V8DL\n\n\n`);

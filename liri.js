@@ -1,3 +1,6 @@
+
+//Required modules
+//---------------------------------------
 var fs = require("fs");
 
 var myTweets = require("./my-tweets.js")
@@ -5,6 +8,7 @@ var spotifyThisSong = require("./spotify-this-song.js");
 var movieThis = require("./movie-this.js");
 var doWhatItSays = require("./do-what-it-says.js");
 var error = require("./error.js");
+//---------------------------------------
 
 var userInputs = {};
 for (var i = 2; i < process.argv.length; i++) {
