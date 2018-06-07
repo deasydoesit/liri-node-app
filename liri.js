@@ -1,17 +1,10 @@
-require("dotenv").config();
-
 var fs = require("fs");
+
 var myTweets = require("./my-tweets.js")
 var spotifyThisSong = require("./spotify-this-song.js");
 var movieThis = require("./movie-this.js");
 var DoWhatItSays = require("./do-what-it-says.js");
 
-var keys = require("./keys.js");
-var Spotify = require('node-spotify-api');
-var Twitter = require('twitter');
-
-var spotify = new Spotify(keys.spotify);
-var client = new Twitter(keys.twitter);
 
 var userInputs = {};
 for (var i = 2; i < process.argv.length; i++) {
