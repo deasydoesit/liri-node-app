@@ -19,8 +19,12 @@ if (userInputs.input2 === "my-tweets") {
 
 } else if (userInputs.input2 === "movie-this") {
 
-    movieThis(userInputs.input3);
-
+    if (userInputs.input3) {
+        movieThis(userInputs.input3);
+    } else {
+        movieThis("Mr. Nobody");
+    }
+    
 } else if (userInputs.input2 === "do-what-it-says") {
 
     fs.readFile("random.txt", "utf8", function(err, data) {
